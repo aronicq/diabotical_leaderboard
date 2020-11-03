@@ -10,7 +10,7 @@ CL arguments are parsed with getopt.
 
   python leaderboard.py --mode <MODE> [--count <N>]
 
-without N specified all the results will be printed
+  without N specified all the results will be printed
 
 
 - To get data about user with <USER_ID> in specific <MODE>, considering <N> use:
@@ -22,4 +22,4 @@ without N specified all the results will be printed
   
   python leaderboard.py --mode <MODE> --country <COUNTRY> --count <N>
   
- where <COUNTRY> is country code that contains 2 letters(gb, de, ru, etc.)
+  where <COUNTRY> is country code that contains 2 letters(gb, de, ru, etc.)
