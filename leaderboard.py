@@ -101,4 +101,4 @@ if __name__ == '__main__':
         print("Connection error. Try again later")
         sys.exit()
 
-    print(filter_by_args(full_table.json()["leaderboard"], arguments))
+    print({"queried_data": filter_by_args(full_table.json()["leaderboard"], arguments)})
