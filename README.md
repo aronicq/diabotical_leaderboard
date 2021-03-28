@@ -1,5 +1,5 @@
 # diabotical_leaderboard
-cli api for getting deabotical players stats
+cli api for getting diabotical players stats
 
 
 Queries are executed with requests lib.
